@@ -12,7 +12,8 @@ Simple javaFX project tested with jemmyFX and cucumber-jvm.
 
 *Running*:
 
-- just mvn clean install.
+- To run the javaFX application: *mvn jfx:run*
+- To run tests: *mvn clean install*.
 
 *To be fixed:*
 
