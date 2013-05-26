@@ -1,7 +1,7 @@
 hello-javafx-maven
 ==================
 
-Simple javaFX project tested with jemmmyFX and cucumber-jvm.
+Simple javaFX project tested with jemmyFX and cucumber-jvm.
 
 *System requirements:*
 
