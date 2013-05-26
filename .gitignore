@@ -1,0 +1,10 @@
+*.swp
+*~
+.project
+.classpath
+.DS_Store
+.idea
+/project
+/public/
+/nbproject/
+/.settings/
