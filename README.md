@@ -15,5 +15,6 @@ Simple javaFX project tested with jemmmyFX and cucumber-jvm.
 
 *To be fixed:*
 
-On OS X, the first run always fails, because the RobotExecutor is started and it takes some time for launching. As a result, when I simulate typing 'toto' in a textfield, it 'looses' the first letter and types in 'oto'. The RobotExecutor stays running and the second test run is OK. Another 'strange' behaviour is that it (jemmyFX) does not recognise AZERTY keyboard and sees typed in lettres as if I used the QWERTY one.
+On OS X, the first run always fails, because the RobotExecutor is started and it takes some time for launching. As a result, when I simulate typing 'toto' in a textfield, it 'looses' the first letter and types in 'oto'. The RobotExecutor stays running and the second test run is OK. On a WindowsPC no RobotExecutor launched and everything passes from the very first time. 
+Another 'strange' behaviour is that it (jemmyFX) does not recognise AZERTY keyboard and sees typed in lettres as if I used the QWERTY one.
 
