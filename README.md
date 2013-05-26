@@ -7,7 +7,7 @@ Simple javaFX project tested with jemmmyFX and cucumber-jvm.
 
 - jdk1.7
 - fix JRE path as described at https://github.com/zonski/javafx-maven-plugin/wiki
-- run *sudo mvn com.zenjava:javafx-maven-plugin:1.5:fix-classpath*  for Linux/Unic based OSs, for Windows, desactivate user control option in the Control panel.
+- run *sudo mvn com.zenjava:javafx-maven-plugin:1.5:fix-classpath*  for Linux/Unix based OSs. For Windows - desactivate user control option in the Control panel.
 
 *Running*:
 
