@@ -12,12 +12,12 @@ Simple javaFX project tested with jemmyFX and cucumber-jvm.
 
 **Running:**
 
-- To run the javaFX application: *mvn jfx:run*
-- To run tests: *mvn clean install*
+- To run the javaFX application: **mvn jfx:run**
+- To run tests: **mvn clean install**
 
-*To be fixed:*
+**To be fixed:**
 
-On OS X, the first test run always fails because the *RobotExecutor* is started and it takes some time for launching. As a result, when I simulate typing '*toto*' in a textfield, it 'looses' the first letter and types in '*oto*'. The RobotExecutor stays running and the second test run is OK.
+On OS X, the first test run always fails because the *RobotExecutor* is started and it takes some time for launching. As a result, when I simulate typing **'toto'** in a textfield, it 'looses' the first letter and types in **'oto'**. The RobotExecutor stays running and the second test run is OK.
 
 On a WindowsPC no RobotExecutor launched and everything passes from the very first time.
 
