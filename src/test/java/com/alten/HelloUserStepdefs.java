@@ -4,14 +4,10 @@ import static org.junit.Assert.assertEquals;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-import org.jemmy.control.Wrap;
-import org.jemmy.fx.AppExecutor;
-import org.jemmy.fx.Root;
 import org.jemmy.fx.SceneDock;
 import org.jemmy.fx.control.LabeledDock;
 import org.jemmy.fx.control.TextInputControlDock;
 
-import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -35,7 +31,7 @@ public class HelloUserStepdefs {
 		"lastNameField");
 	messageLabel = new LabeledDock(scene.asParent(), Label.class,
 		"messageLabel");
-	submitBtn = new LabeledDock(scene.asParent(), Button.class);	
+	submitBtn = new LabeledDock(scene.asParent(), Button.class);
     }
 
     @When("^I enter \"([^\"]*)\" as first name$")
@@ -67,7 +63,6 @@ public class HelloUserStepdefs {
     public void it_should_see_the_greeting_for_the_uknown_person() {
 	assertEquals(MainApp.UKNOWN_PERSON_GREETING, messageLabel.getText());
     }
-
 
     @After
     public void resetFields() {
