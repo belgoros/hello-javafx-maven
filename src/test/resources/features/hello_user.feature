@@ -4,9 +4,9 @@ Feature: Hello User
     Given the application is running
 
   Scenario: When no last name entered
-    When I enter "toto" as first name
+    When I enter "Azerty" as first name
     And I press the submit button
-    Then it should see the greeting with "Hello toto"
+    Then it should see the greeting with "Hello Azerty"
 
   Scenario: When no first name entered
     When I enter "YOYO" as last name
