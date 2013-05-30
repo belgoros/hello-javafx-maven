@@ -22,6 +22,6 @@ On OS X, the first test run always fails because the *RobotExecutor* is started 
 On a WindowsPC no RobotExecutor launched and everything passes from the very first time.
 
 
-Another 'strange' behaviour is that it (jemmyFX) does not recognize AZERTY keyboard on my Mac and sees typed in lettres as if I used the QWERTY one.
+Another 'strange' behaviour is that it (jemmyFX) does not recognize AZERTY keyboard on my Mac and sees typed in letters as if I used the QWERTY one.
 No problems with that for a Windows PC.
 
